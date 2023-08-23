@@ -1,0 +1,261 @@
+.story{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    margin-right: 337px;
+    margin-top: 80px;
+    justify-content: center;
+    
+}
+
+.story-part{
+    height:230px;
+    width:100%px;
+    border-radius: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.profile-name{
+    position: absolute;
+    color:#fff;
+    z-index: 200;
+    
+    margin-left: -100px;
+    margin-top: 204px;
+}
+.top-pic{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-left: -120px;
+    border: solid;
+    border-color: blue;
+    top: 100px;
+}
+.all-pictures{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 0px;
+    background-color: rgb(231,232,238);
+    height: 100%;
+    z-index: 600;
+
+}
+.all-pictures::-webkit-scrollbar{
+    width: 0;
+}
+.mind{
+    height:100px;
+    width:480px;
+    margin-left: 100px;
+    margin-right: 337px;
+    background-color:#fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.5px solid gray;
+
+}
+.mind-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mind-user{
+    height:35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.input-mind{
+    display: flex;
+    flex:1;
+    margin-left: 10px;
+    border-radius: 13px;
+    border-width: 10px;
+    border-style: unset;
+    border-color: rgb(231,232,238);
+    margin-top: 10px;
+    padding: 10px;
+    width: 380px;
+    height: 15px;
+    background-color: rgb(231,232,238);
+
+}
+.mind-set{
+    flex: 1;
+
+}
+.Activity{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+.images-mind{
+    height: 15px;
+    width: 15px;
+}
+.center-mind{
+ font-family: inherit;
+ font-size: 700;
+ color: gray;
+}
+.center-mind:hover{
+    background-color: lightgray;
+}
+.label{
+    margin-left: 7px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width:480px;
+    margin-left: 100px;
+    margin-right: 337px;
+    background-color:#fff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.details{
+   display: flex;
+   justify-content: space-between;
+}
+.left-detail{
+    margin-top: 0px;
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}
+.img{
+    width: 100%;
+}
+.post-img{
+   margin-left: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+.post-details{
+    font-family: inherit;
+    line-height: 10px;
+    
+}
+.name{
+    font-size: 16px;
+    font-weight: 520;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.time{
+    margin-left: 10px;
+    font-size: 10px;
+}
+.see-more{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+.reject{
+    height: 20px;
+    width: 18px;
+    margin-right: 30px;
+    margin-top: 10px;
+    
+
+}
+.cap-details{
+    font-family: inherit;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.photo{
+    
+}
+.feed{
+   height: 300px;
+   width: 480px;
+}
+.likes{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   border-bottom: 0.5px solid gray;
+}
+.like-details{
+    margin-top: 0px;
+    display:grid;
+    grid-template-columns: 20px 1fr;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.like-blue{
+    height: 14px;
+    width: 15px;
+
+}
+.likes-font{
+    font-size: 15px;
+    color: gray;
+    font-family: inherit;
+    margin-left: 2px;
+}
+.right-details{
+    margin-top: 0px;
+    display:grid;
+    grid-template-columns: 20px 1fr 1fr 1fr;
+    margin-right: 20px;
+    font-family: inherit;
+    color: gray;
+    margin-bottom: 5px;
+}
+.comment{
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+}
+.share{
+    height: 15px;
+    width: 13px;
+    margin-left: 0px;
+}
+.user-control{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   font-family: inherit;
+   color:gray;
+   font-size: 15px;
+   margin-bottom: 20px;
+}
+.control{
+    height: 17px;
+    width: 17px;
+}
+.left-control{
+    margin-top: 10px;
+    margin-left: 20px;
+    display:grid;
+    grid-template-columns: 30px 1fr;
+}
+.middle-control{
+    margin-top: 10px;
+    display:grid;
+    grid-template-columns: 30px 1fr;
+}
+.right-control{
+    margin-top: 10px;
+    margin-right: 20px;
+    display:grid;
+    grid-template-columns: 30px 1fr;
+}

@@ -1,0 +1,91 @@
+.right-sidebar{
+    position: fixed;
+    top:60px;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    z-index: 400;
+    background-color:rgb(231, 232, 238);
+    overflow: auto;
+    
+}
+.side-top{
+ border-bottom: 0.5px solid gray;
+}
+.info{
+    font-family: inherit;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+    line-height: 20px;
+    margin-left: 30px;
+}
+.side-text{
+    font-family: inherit;
+    font-size: 16px;
+    color: black;
+    margin-left: 30px;
+    display:grid;
+    grid-template-columns: 30px 1fr;
+    margin-top: 10px;
+    font-weight: 400;
+
+}
+.side-text:hover{
+background-color: lightgray;
+}
+.side-img{
+    height: 20px;
+    width: 20px;
+    
+}
+.contacts{
+    display: flex;
+   justify-content: space-between;
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 20px;
+}
+.text{
+   color:gray;
+   font-size: 20px;
+   font-family: inherit;
+   margin-left: 10px;
+}
+.more{
+    height: 14px;
+    width: 14px;
+    margin-left: 10px;
+    
+}
+.conversation-side{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.conversation{
+    height:60px;
+    width: 100%;
+    display:flex;
+    justify-content: start;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: inherit;
+ 
+}
+.conversation:hover{
+    background-color: lightgray;
+}
+
+.audio{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+}
+.hello{
+    margin-left: 10px;
+}

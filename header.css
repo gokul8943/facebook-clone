@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:60px;
+     z-index: 700;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #fff;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 222, 222);
+}
+.left-section{
+    display: flex;
+    align-items: center;
+    
+    width: 300px;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
+.search-bar{
+    flex:1;
+    height: 27px;
+    border-radius:20px;
+    margin-left: 20px;
+    padding:6px;
+    border-color: rgb(231, 232, 238);
+    border-width: 4px;
+    border-style: none;
+    border-radius: 18px;
+    background-color:rgb(231, 228, 228);
+}
+.middle-section{
+    height:60px;
+    width:800px;
+    flex:2;
+    margin-left: 120px;
+    margin-right: 70px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.home{
+    height: 30px;
+    width:30px
+}
+.video-icon{
+    height:30px;
+    width: 30px;
+
+}
+.store{
+    height: 30px;
+    width:30px
+}
+.group{
+    height: 30px;
+    width:30px
+}
+.gamepad{
+    height:30px;
+    width: 30px;
+}
+
+
+.middle-hover:hover{
+    background-color:lightgray;
+}
+.right-section{
+    height:60px;
+    width:200px;
+    flex:1;
+    margin-left: 70px;
+    margin-right: 20px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.app-button{
+    height:25px;
+    width: 25px;
+    margin: 10px;
+   
+}
+.messenger{
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+    
+}
+.notification{
+    height: 25px;
+    width: 25px;
+    margin: 10px;
+   
+}
+.profile{
+    height: 45px;
+    width: 45px;
+    margin: 10px;
+    border-radius: 25px;
+
+}
